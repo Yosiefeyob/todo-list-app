@@ -1,0 +1,68 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 400px; /* limit app width */
+  margin: 0 auto; /* center the app */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px; /* space below form */
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px; /* space between input and button */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* darker color on hover */
+}
+
+ul {
+  list-style-type: none; /* remove bullets */
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between; /* separate content and button */
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+span {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #dc3545; /* red for delete */
+}
+
+button:hover {
+  background-color: #b02a37; /* darker red on hover */
+}
